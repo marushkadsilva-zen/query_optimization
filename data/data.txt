@@ -1,0 +1,8 @@
+Retrieval-Augmented Generation (RAG) combines retrieval and generation.
+It retrieves relevant documents from a vector database and passes them to an LLM.
+
+Query optimization improves retrieval by rewriting, expanding, or decomposing queries.
+
+HyDE generates hypothetical answers to improve semantic retrieval.
+
+Multi-query retrieval generates multiple variations of a query to improve recall.
