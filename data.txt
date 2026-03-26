@@ -6,3 +6,5 @@ Query optimization improves retrieval by rewriting, expanding, or decomposing qu
 HyDE generates hypothetical answers to improve semantic retrieval.
 
 Multi-query retrieval generates multiple variations of a query to improve recall.
+
+
