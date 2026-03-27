@@ -10,7 +10,7 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
 
-from sentence_transformers import CrossEncoder   # ✅ NEW (RERANKING)
+from sentence_transformers import CrossEncoder   #w (RERANKING)
 
 # ==============================
 # LOAD ENV
@@ -47,7 +47,7 @@ def ask_gemini(prompt, retries=3):
 # ==============================
 # LOAD DATA
 # ==============================
-loader = TextLoader("data.txt")
+loader = TextLoader("data.txt", encoding="utf-8")
 documents = loader.load()
 
 splitter = CharacterTextSplitter(chunk_size=300, chunk_overlap=50)
